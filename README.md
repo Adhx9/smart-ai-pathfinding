@@ -1,91 +1,64 @@
-# 🚀 AI Pathfinding Visualizer
+# AI Pathfinding Visualizer
 
-An interactive AI-based pathfinding visualizer developed using Python.
-
-This project demonstrates how intelligent search algorithms like BFS, DFS, Dijkstra, and A* Search work in real-time.
-
----
-
-## ✨ Features
-
-- 🔍 BFS Algorithm
-- 🧠 DFS Algorithm
-- ⚡ A* Search
-- 📌 Dijkstra Algorithm
-- 🎮 Interactive Grid UI
-- 🎨 Real-time Visualization
+An interactive visualization tool built using Python that demonstrates how popular AI pathfinding algorithms work in real time.  
+This project helps visualize intelligent search techniques through dynamic grid-based simulations and animations.
 
 ---
 
-## 🛠 Tech Stack
-
-- Python
-- Pygame
-- Artificial Intelligence
-- Data Structures & Algorithms
-
----
-
-## 📸 Screenshots
+## Preview
 
 ### Main Interface
-<img width="1832" height="1081" alt="image" src="https://github.com/user-attachments/assets/a3ded2a1-837c-4133-98f8-87cf01c8456f" />
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a3ded2a1-837c-4133-98f8-87cf01c8456f" width="900"/>
+</p>
 
----
+### Visualization Demo
 
-## 🎥 Demo
-
-<img width="1848" height="1090" alt="20260603-0634-30 6975297" src="https://github.com/user-attachments/assets/0e2e2d26-3dab-49c6-b01c-2a4fb3d01699" />
-
-
-
-
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cbd2e5e2-d11d-441c-8356-5bc4a4de837e" width="900"/>
+</p>
 
 ---
 
-## 🚀 How to Run
+## Algorithms Implemented
 
-Clone the repository:
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
+- Dijkstra’s Algorithm
+- A* Search Algorithm
+
+---
+
+## Features
+
+- Real-time pathfinding visualization
+- Interactive grid interface
+- Obstacle generation and path tracing
+- Intelligent shortest-path analysis
+- Smooth algorithm animations
+
+---
+
+## Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Core Development |
+| Pygame | Visualization & UI |
+| Data Structures | Graph Traversal |
+| Artificial Intelligence | Search Algorithms |
+
+---
+
+## Project Structure
 
 ```bash
-git clone https://github.com/yourusername/AI-Pathfinding-Visualizer.git
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the project:
-
-```bash
-python main.py
-```
-
----
-
-## 🧠 AI Concepts Used
-
-- Informed Search
-- Uninformed Search
-- Heuristic Functions
-- Graph Traversal
-- Path Optimization
-
----
-
-## 📚 Learning Outcomes
-
-- Improved understanding of AI search algorithms
-- Learned visualization techniques
-- Implemented heuristic-based pathfinding
-- Explored optimization strategies
-
----
-
-## 👨‍💻 Author
-
-Adithya
+AI-Pathfinding-Visualizer/
+│
+├── main.py
+├── algorithms/
+├── assets/
+├── screenshots/
+├── requirements.txt
+└── README.md
