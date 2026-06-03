@@ -1,4 +1,4 @@
-# AI Pathfinding Visualizer
+# Smart AI Pathfinding
 
 An interactive visualization tool built using Python that demonstrates how popular AI pathfinding algorithms work in real time.  
 This project helps visualize intelligent search techniques through dynamic grid-based simulations and animations.
@@ -54,11 +54,10 @@ This project helps visualize intelligent search techniques through dynamic grid-
 ## Project Structure
 
 ```bash
-AI-Pathfinding-Visualizer/
+Smart-AI-Pathfinding-/
 │
 ├── main.py
-├── algorithms/
-├── assets/
-├── screenshots/
+├── pathfinding.py
+├── ui_controls.py
 ├── requirements.txt
 └── README.md
